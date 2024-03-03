@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+}
+#grid {
+    border: black solid 2px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 1;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+#button {
+    text-align: center;
+    width: 200px;
+    height: 75px;
+    font-size:x-large;
+    color:darkblue;
+    background-color: gold;
+}
